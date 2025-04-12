@@ -109,16 +109,16 @@ Follow these steps to set up the project locally:
 > **Note**: Store all screenshots in the `/public/screenshots` directory.
 
 ### 🏠 Home Page
-![Home Page](./public/screenshots/home.png)
+![Home Page](./public/screenshot/home.png)
 
 ### 📋 Manage Students Page
-![Manage Students](./public/screenshots/students-manage.png)
+![Manage Students](./public/screenshot/student-manage.png)
 
 ### 🌙 About
-![Dark Mode](./public/screenshots/about.png)
+![Dark Mode](./public/screenshot/about.png)
 
 ### 📧 Contact Us Page
-![Contact Us](./public/screenshots/contact.png)
+![Contact Us](./public/screenshot/contact.png)
 
 ---
 
