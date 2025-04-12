@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Students</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>University Management</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="students.html" class="active">Manage Students</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact Us</a>
+    <button id="darkModeToggle" class="dark-mode-btn">🌙 Dark Mode</button>
+  </nav>
+
+  <div class="container">
+    <h2>Student Management</h2>
+    <form id="studentForm">
+      <input type="text" id="studentName" placeholder="Student Name" required />
+      <input type="text" id="studentUid" placeholder="Uid" required />
+      <input type="text" id="studentGrade" placeholder="Grade" required />
+      <button type="submit">Add Student</button>
+    </form>
+    <ul id="studentList"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 University Management System. All rights reserved.</p>
+    <p>Developed by 
+      <a href="https://github.com/aayushthakur001/" target="_blank">Ayush Thakur</a> & 
+      <a href="https://github.com/ritish-chauhan" target="_blank">Ritish Chauhan</a>.
+    </p>
+  </footer>
+
+</body>
+</html>

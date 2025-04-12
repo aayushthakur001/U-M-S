@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - University Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>University Management</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="students.html">Manage Students</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact Us</a>
+    <button id="darkModeToggle" class="dark-mode-btn">🌙 Dark Mode</button>
+  </nav>
+
+  <div class="container">
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required />
+        <input type="email" id="contactEmail" placeholder="Your Email" required />
+        <textarea id="contactMessage" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/darkModeToggle.js"></script>
+
+  <footer>
+    <p>&copy; 2025 University Management System. All rights reserved.</p>
+    <p>Developed by 
+      <a href="https://github.com/aayushthakur001/" target="_blank">Ayush Thakur</a> & 
+      <a href="https://github.com/ritish-chauhan" target="_blank">Ritish Chauhan</a>.
+    </p>
+  </footer>
+</body>
+</html>
