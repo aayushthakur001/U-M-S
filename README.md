@@ -29,6 +29,7 @@ A full-stack web application designed to efficiently manage university operation
 - **🖱️ Smooth Scrolling**: Seamless navigation across the application for better usability.
 - **📧 Contact Form**: A simple form to collect user inquiries and feedback.
 - **🎨 Interactive UI**: Clean and modern design with hover effects and animations.
+- **🍃 Database Integration**: Replace in-memory storage with MongoDB for persistent data storage.
 
 ---
 
@@ -123,7 +124,6 @@ Follow these steps to set up the project locally:
 
 ## 🔮 Future Enhancements
 
-- **🍃 Database Integration**: Replace in-memory storage with MongoDB for persistent data storage.
 - **🔒 Role-Based Access Control**: Add user authentication and authorization for secure access.
 - **📚 Course Management**: Extend functionality to manage courses, schedules, and faculty.
 - **🌐 Deployment**: Host the application on platforms like Heroku, Vercel, or AWS for live access.
